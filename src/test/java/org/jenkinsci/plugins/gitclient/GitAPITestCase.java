@@ -795,7 +795,7 @@ public abstract class GitAPITestCase extends TestCase {
          * http://unicode.org/reports/tr15/#Detecting_Normalization_Forms
          * for the source of those example characters.
          */
-        String fileName = "\uD835\uDD65-\u5c4f\u5e55\u622a\u56fe-\u0041\u030a-\u00c5-\u212b-fileName.xml";
+        String fileName = "\u00f0\u009d\u0095\u00a5\u00e5\u00b1\u008f\u00e5\u00b9\u0095\u00e6\u0088\u00aa\u00e5\u009b\u00beA\u00cc\u008a\u00c3\u0085\u00e2\u0084\u00ab-fileName.xml";
         w.touch(fileName, "content " + fileName);
         w.git.add(fileName);
         w.git.commit(fileName);
