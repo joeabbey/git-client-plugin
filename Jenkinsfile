@@ -29,7 +29,7 @@ void mvn(def args) {
   String jdktool = '/usr' //tool name: "jdk7", type: 'hudson.model.JDK'
 
   /* Get the maven tool. */
-  def mvnHome = tool name: 'mvn'
+  def mvnHome = '/usr'
 
   /* Set JAVA_HOME, and special PATH variables. */
   List javaEnv = [
